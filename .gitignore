@@ -1,19 +1,18 @@
-# Secrets and environment configuration
+# Secrets and local configuration
 .env
 .env.*
 !.env.example
-*.key
 *.pem
+*.key
 *.p12
 *.pfx
 
-# Database and log artifacts
-*.dump
-*.sql.gz
+# Runtime / generated files
 *.log
-*.sha256
-
-# Local runtime
 __pycache__/
+.pytest_cache/
+.DS_Store
+Thumbs.db
 .venv/
-.envrc
+venv/
+node_modules/
