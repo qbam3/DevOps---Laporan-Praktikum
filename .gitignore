@@ -1,0 +1,19 @@
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database and log artifacts
+*.dump
+*.sql.gz
+*.log
+*.sha256
+
+# Local runtime
+__pycache__/
+.venv/
+.envrc
